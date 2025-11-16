@@ -145,12 +145,12 @@ Commands for **synthesis**:
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk synth
 ```
 
-![image](S1.png)
+![image](Screenshots/S1.png)
 
 
 Synthesis log:
 
-![image](S2.png)
+![image](Screenshots/S2.png)
 
 Synthesis Stats:
 
@@ -269,28 +269,28 @@ Commands for **floorplan**:
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk floorplan
 ```
 
-![image](F1.png)
+![image](Screenshots/F1.png)
 
-![image](F2.png)
+![image](Screenshots/F2.png)
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_floorplan
 ```
-![image](F3.png)
+![image](Screenshots/F3.png)
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
 ```
 
-![image](P1.png)
+![image](Screenshots/P1.png)
 
-![image](P2.png)
+![image](Screenshots/P2.png)
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_place
 ```
 
-![image](P3.png)
+![image](Screenshots/P3.png)
 
 
 
@@ -299,13 +299,13 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_place
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
 ```
 
-![image](C1.png)
+![image](Screenshots/C1.png)
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_cts
 ```
 
-![image](C2.png)
+![image](Screenshots/C2.png)
 
 
 CTS final report:
