@@ -305,7 +305,7 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_cts
 ```
 
-![image](Screenshots/C2.png)
+![image](Screenshots/C3.png)
 
 
 CTS final report:
