@@ -14,17 +14,10 @@ cd OpenROAD-flow-scripts
 sudo ./setup.sh
 ```
 
-![image](https://github.com/user-attachments/assets/bec63ae7-4659-42e3-9c01-159a380316a7)
-
-![image](https://github.com/user-attachments/assets/45108685-7362-47ee-b148-e7d1a7552a18)
-
 ```
 ./build_openroad.sh --local
 ```
 
-![image](https://github.com/user-attachments/assets/2108fc17-2bb9-40cb-a30c-36cc0490dc8a)
-
-![image](https://github.com/user-attachments/assets/8cc97b6f-f231-4f19-9bd9-e2da6e5980b3)
 
 **Verify Installation**
 
@@ -35,19 +28,15 @@ openroad -help
 cd flow
 make
 ```
-![image](https://github.com/user-attachments/assets/168b53ca-fb2d-441d-8aa8-2b0178abbb54)
-
-![image](https://github.com/user-attachments/assets/aaf920bb-12e3-4044-a0a9-930b3ef748e9)
+![image](Screenshots/OPENROAD_CHECK.png)
 
 ```
 make gui_final
 ```
-![image](https://github.com/user-attachments/assets/a7b0cca8-5296-4805-88fd-485a720e1bd5)
+![image](Screenshots/GUI_CHECK.png)
 
 
 **ORFS Directory Structure and File formats**
-
-![image](https://github.com/user-attachments/assets/e4f741ad-3f48-4e9a-a799-c8ff95bc74cf)
 
 
 ``` 
@@ -62,8 +51,6 @@ make gui_final
 ```
 
 Now, go to flow directory
-
-![image](https://github.com/user-attachments/assets/70cb9a6b-b48c-497e-a050-dd6a5b90ea1d)
 
 ``` 
 ├── flow           
@@ -158,31 +145,31 @@ Commands for **synthesis**:
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk synth
 ```
 
-![image](https://github.com/user-attachments/assets/b61006cd-554c-425d-9bfb-6d6fa947118d)
+![image]()
 
-![image](https://github.com/user-attachments/assets/353513a3-8272-4ddf-b178-eff0d70650a9)
+![image]()
 
 Synthesis netlist:
 
-![image](https://github.com/user-attachments/assets/c2464bd4-c95a-4917-b71d-4ffb7f031950)
+![image]()
 
 Synthesis log:
 
-![image](https://github.com/user-attachments/assets/9cd5f73d-a4cc-4174-889d-872eeff31fe0)
+![image]()
 
 Synthesis Check:
 
-![image](https://github.com/user-attachments/assets/aba75cdc-42ae-4989-b566-3f812ac5667d)
+![image]()
 
 Synthesis Stats:
 
-![image](https://github.com/user-attachments/assets/8553380f-abbb-4ea4-be61-5a59d092ed50)
+![image]()
 
-![image](https://github.com/user-attachments/assets/b8bfc7c4-6a90-4697-8ad6-a3f33992f89d)
+![image]()
 
-![image](https://github.com/user-attachments/assets/11ef305e-06b7-4124-a279-16198e18f120)
+![image]()
 
-![image](https://github.com/user-attachments/assets/d1b7114f-8e88-465a-b4ba-c2f32a8bf312)
+![image]()
 
 Commands for **floorplan**:
 
@@ -190,62 +177,62 @@ Commands for **floorplan**:
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk floorplan
 ```
 
-![image](https://github.com/user-attachments/assets/46de8e09-36da-4678-b8a2-05a3623c8b34)
+![image]()
 
-![image](https://github.com/user-attachments/assets/ce8cf1e2-ec77-4b8c-8de5-d60cbc16a8b9)
+![image]()
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_floorplan
 ```
-![image](https://github.com/user-attachments/assets/9398bb6a-51a7-41c7-9df6-7e15cfc14c1d)
+![image]()
 
-![image](https://github.com/user-attachments/assets/57b1075e-cb18-4922-b0f8-e055bf5661d8)
+![image]()
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
 ```
 
-![image](https://github.com/user-attachments/assets/33a6fe07-fd13-435f-9cf0-a4ebdc313842)
+![image]()
 
-![image](https://github.com/user-attachments/assets/e165bdba-914e-417e-9578-630bd2b63514)
+![image]()
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_place
 ```
 
-![image](https://github.com/user-attachments/assets/8df8d550-d1e7-447e-8e7d-3a56f8043f87)
+![image]()
 
-![image](https://github.com/user-attachments/assets/1b2c60f4-cb75-405d-a2ba-0e200a48b299)
+![image]()
 
 Heatmap:
 
-![image](https://github.com/user-attachments/assets/08984176-1b8b-4326-ac68-8aeb3c9262b9)
+![image]()
 
-![image](https://github.com/user-attachments/assets/f4297129-92d3-49ab-b993-ae70597a4891)
+![image]()
 
-![image](https://github.com/user-attachments/assets/c0c8e9ca-7960-4cb0-bd36-b9601f0697db)
+![image]()
 
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
 ```
 
-![image](https://github.com/user-attachments/assets/fbd2d4a2-248a-450f-bdcc-fd0ab0c9c2f4)
+![image]()
 
-![image](https://github.com/user-attachments/assets/a17cd95d-cfb8-47f2-9e79-a2e71d0499d6)
+![image]()
 
 ```
 make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_cts
 ```
 
-![image](https://github.com/user-attachments/assets/7a390b9d-90f1-406b-b397-254187828bfd)
+![image]()
 
-![image](https://github.com/user-attachments/assets/b43cfb6a-f095-4c9f-adc2-b562b42142b4)
+![image]()
 
-![image](https://github.com/user-attachments/assets/da5935db-358b-4edc-ade0-9823625ba062)
+![image]()
 
 CTS final report:
 
-![image](https://github.com/user-attachments/assets/d545c7f2-9514-4ee2-a76b-1fe5ee60c88e)
+![image]()
 
 
