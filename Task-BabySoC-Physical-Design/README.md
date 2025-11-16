@@ -820,3 +820,14 @@ Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 Total                  8.10e-03   5.18e-03   2.16e-08   1.33e-02 100.0%
                           61.0%      39.0%       0.0%
 ```
+
+Route:
+
+```
+make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
+```
+
+![image](R1.png)
+
+![image](R2.png)
+
